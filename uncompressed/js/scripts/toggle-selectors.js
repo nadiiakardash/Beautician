@@ -45,10 +45,8 @@ toggleSelectors('header__button','header');
 toggleSelectors('header__button','main-body');
 toggleSelectors('button--modal','popup');
 toggleSelectors('header__tel','popup');
-toggleSelectors('header__tel','popup__wrapper--main');
-toggleSelectors('header__tel','popup__wrapper--tel');
+toggleSelectors('header__tel','popup__wrapper');
 toggleSelectors('popup__button-closed','popup');
-toggleSelectors('popup__button-closed--tel','popup__wrapper--tel');
-toggleSelectors('popup__button-closed--tel','popup__wrapper--main');
+toggleSelectors('popup__button-closed--wrapper','popup__wrapper');
 
 

@@ -4410,13 +4410,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   display: none;
 }
 
-.popup__wrapper--tel--closed {
-  position: absolute;
-  top: -500%;
-  z-index: -1000;
-}
-
-.popup__wrapper--main--closed {
+.popup__wrapper--closed {
   position: absolute;
   top: -500%;
   z-index: -1000;
