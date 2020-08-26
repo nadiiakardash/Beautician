@@ -3876,9 +3876,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   -webkit-transition: top 1s ease-in-out;
   -o-transition: top 1s ease-in-out;
   transition: top 1s ease-in-out;
-  background-image: url("../img/svg/thanks/flower.svg");
+  background-image: url("../img/svg/popup/flower.svg");
   background-size: 147px;
-  background-position: right 11px top 73px;
+  background-position: right 11px top 85px;
   background-repeat: no-repeat;
 }
 
@@ -4599,13 +4599,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   -webkit-transition: top 1s ease-in-out;
   -o-transition: top 1s ease-in-out;
   transition: top 1s ease-in-out;
-}
-
-.popup__container--success {
-  background-image: url("../img/svg/popup/flower.svg");
-  background-size: 147px;
-  background-position: right 11px top 73px;
-  background-repeat: no-repeat;
 }
 
 .popup__wrapper {

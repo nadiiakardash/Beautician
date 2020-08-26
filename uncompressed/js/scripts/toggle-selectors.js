@@ -48,7 +48,5 @@ toggleSelectors('button--tel','popup');
 toggleSelectors('button--tel','popup__wrapper');
 toggleSelectors('popup__button-closed','popup');
 toggleSelectors('popup__button-closed--wrapper','popup__wrapper');
-toggleSelectors('button--thanks','thanks');
-toggleSelectors('thanks__button-closed','thanks');
 
 
