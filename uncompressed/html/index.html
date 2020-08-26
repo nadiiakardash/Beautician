@@ -26,7 +26,7 @@
 </div>
 
   <section class="popup popup--closed">
-<!--    Якщо заявка успішно відправлена, то відкривається модальне вікно з подякою, а також добавляється класс 'popup__container--success' до 'popup__container', який добавляє бекграунд картинку  -->
+
   <div class="popup__container">
     <form class="popup__wrapper popup__wrapper--form">
       <h2 class="visually-hidden">Заявка</h2>
@@ -52,15 +52,6 @@
       </button>
     </form>
 
-<!--  Модальне вікно з подякою  -->
-    <div class="popup__wrapper popup__wrapper--thanks">
-      <p class="popup__title-description">Дякуємо!</p>
-      <p class="popup__description">Заявка на безкоштовну консультацію прийнята. Наш менеджер вам зателефонує якнайшвидше.</p>
-      <button type="button" class="popup__button-closed">
-        <span class="visually-hidden">Закрити</span>
-      </button>
-    </div>
-
 <!--  Модальне вікно з телефоном  -->
     <form class="popup__wrapper popup__wrapper--tel popup__wrapper--closed">
       <h2 class="visually-hidden">Телефон</h2>
@@ -83,6 +74,19 @@
     </form>
   </div>
 </section>
+
+  <!--  Модальне вікно з подякою  -->
+<div class="thanks thanks--closed">
+  <div class="thanks__container">
+    <div class="thanks__wrapper">
+      <p class="thanks__title-description">Дякуємо!</p>
+      <p class="thanks__description">Заявка на безкоштовну консультацію прийнята. Наш менеджер вам зателефонує якнайшвидше.</p>
+      <button type="button" class="thanks__button-closed">
+        <span class="visually-hidden">Закрити</span>
+      </button>
+    </div>
+  </div>
+</div>
 
   <header class="header header--closed">
   <div class="container header__container">
@@ -491,7 +495,7 @@
   <label for="modal__input--email" class="visually-hidden">Email</label>
   <input type="text" class="modal__input modal__input--email" id="modal__input--email" placeholder="Email*" required="">
   <p class="modal__description">Ми дбаємо про те, щоб ваша інформація залишалася конфіденційною</p>
-  <button type="submit" class="button modal__button">
+  <button type="submit" class="button button--thanks modal__button">
   Безкоштовна консультація
   <span class="button__inner">
     <svg class="button__circle" width="27" height="27">
